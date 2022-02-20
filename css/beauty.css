@@ -66,7 +66,7 @@ header
 .pag .bouttons a
 {
     color: whitesmoke;
-    background-color:transparent; 
+    background-color:rgb(189, 33, 85); 
     text-transform: none;
     text-decoration: none;
     font-size: 1rem;
@@ -102,174 +102,42 @@ header
 .pag .bloc .aside
 {
     width: 50%;
-    background-color: rgb(69, 154, 183); 
+    background-color: rgba(3, 16, 35, 0.644); 
+    align-content: space-around;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+    color: rgb(189, 33, 85);
 }
-
-
-.pag .bloc .aside form
-{
-    background-color:rgb(55, 244, 250); 
-    width: 94%;
-    margin: 4px;
-    height: 100px;
-    box-shadow:  7px 7px 13px 0px black
-}
-
-
 
 .pag .bloc .aside h2
 {
-    text-align: center;
-    color: whitesmoke;
-    font-family: cursive;
-    font-style: italic;
+    text-align: left;
+    font-family: monospace;
+    margin: 5%;
 }
 
-.pag .bloc .aside nav
+.pag .bloc .aside p
 {
-    width: 92%;
-    margin: auto;
-    padding: 6px;
-    background-color: rgb(100, 190, 224);
-    height: 300px;
-    margin-bottom: 30px;
-    padding-bottom: 40px;
-    box-shadow:  7px 7px 13px 0px black;
+    text-align: left;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-left: 4%;
 }
-.pag .bloc .aside nav ul li p
+
+.pag .bloc .aside audio
 {
-    width: 50%;
-    margin: auto;
-    margin-top: 9px;
-    padding: 6px;
-    text-align: center;
-    font-weight:bold;
-    background-color: rgb(137, 210, 255);
-    color: black;
-    text-decoration: none;
-    border-right: solid 0.1px black;
-    border-bottom: solid 0.1px black;
-    font-size: 1rem;
-    margin-bottom: 50px;
-    padding-bottom: 5px;
-    list-style: square;
-}
-
-.pag .bloc .aside nav ul li {
-
-    padding-bottom: 10px;
-    width: 50%;
-    margin: 10px;
-    text-align: center;
-    list-style: square;
-    
-}
-
-.pag .bloc .aside nav ul li p a{
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-
-.pag .bloc .aside nav .para
-{
-
-
-    color: black;
-    font-size: 1rem;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-}
-
-.pag .bloc .aside nav .para li
-{
-    padding-bottom: 5px;
-    width: 50%;
-    background-color: rgb(6, 150, 161);
-    margin: auto;
-    text-align: center;
-    list-style: square ;
-    margin-bottom: 3px;
-    margin-top: 10%;
-}
-.pag .bloc .aside nav .para li a
-{
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-
-
-.pag .bloc .aside .navi
-{
-    width: 92%;
-    margin: auto;
-    padding: 6px;
-    background-color: rgb(100, 190, 224);
-    height: 100px;
-    margin-bottom: 30px;
-    padding-bottom: 40px;
-    box-shadow:  7px 7px 13px 0px black;
-}
-.pag .bloc .aside .navi li
-{
-    padding-bottom: 5px;
-    width: 50%;
-    background-color: rgb(6, 150, 161);
-    margin: auto;
-    text-align: center;
-    list-style: square ;
-    margin-bottom: 3px;
-    margin-top: 10%;
-}
-
-.pag .bloc .aside .navi li a
-{
-    text-decoration: none;
-    color: whitesmoke;
+    margin: 3%;
+    width: 60%;
 }
 
 .pag .bloc .corps
 {
-    width: 74%;
-    background-color:rgb(69, 154, 183); 
+    width: 50%;
+    background-color:rgba(3, 16, 35, 0.644); 
 
 }
-
-.pag .bloc .corps .barriere
-{
-    background-color:rgb(117, 162, 247); 
-    border-radius: 5%;
-    width: 98%;
-    margin: auto;
-    height: 20px;
-}
-
-.pag .bloc .corps .note
-{
-    width: 98%;
-    margin: 10px;
-    background-color:rgb(42, 137, 169); 
-    height: 12%;
-    border-radius: 5%;
-    box-shadow:  7px 7px 13px 0px black;
-    text-align: center;
-    padding-top: 30px;
-
-}
-
-.pag .bloc .corps .note h2
-{
-    font-size: 2rem;
-    font-family: cursive;
-    color: whitesmoke;
-
-}
-
 
 .pag .bloc .corps .globe
 {
@@ -278,59 +146,34 @@ header
     margin-top: 40px;
 }
 
-
-.pag .bloc .corps .globe .gauche
-{
-    padding-top: 10%;
-    width: 40%;
-}
-.pag .bloc .corps .globe .gauche h2
-{
-    color: whitesmoke;
-    font-size: 2rem;
-    font-family: cursive;
-    font-weight: normal;
-    text-align: center;
-}
-
-.pag .bloc .corps .globe .gauche p
-{
-    color: whitesmoke;
-    margin-top: 20px;
-    text-align: center;
-    font-family: cursive;
-}
-
 .pag .bloc .corps .globe .droite
 {
-    width: 70%;
+    width: 90%;
+   
 }
-
 .pag .bloc .corps .globe .droite img
 {
-    width: 90%;
-    margin: 20px;
-    box-shadow:  7px 7px 13px 0px black;
-
+    width: 100%;
+    height: 100%;
+    margin-top: 7%;
 }
 
-.pag .bloc .corps  h1
+.page
 {
-    font-family: cursive;
-    color: whitesmoke;
+    background-color: rgba(3, 16, 35, 0.644); 
+    height: 70px;
 }
-.pag .bloc .corps .pages
+
+ .pages
 {
-    width: 98%;
-    margin: auto;
-    height: 20px;
+    width: 100%;
+    height: 200px;
     margin-top: 40px;
-    background-color:rgb(42, 137, 169); 
-    height: 12%;
-    box-shadow:  7px 7px 13px 0px black;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 2rem;
-    font-family: cursive;
-    color: whitesmoke;
+    display: flex;
+    
+}
+
+.pages img
+{
+    width: 17%;
 }
