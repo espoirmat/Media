@@ -4,22 +4,19 @@
 }
 body
 {
-    background-color:rgb(117, 162, 247);
+    background-color:rgb(3, 16, 35);
 }
 
 header
 {
-    background-color:rgb(117, 162, 247);
+    background-image:url("../img/musiquefond2.jpg");
     width: 100%;
-    box-shadow: 0 0 17px 0 ;
-    text-align: center;
+    box-shadow: 0 0 17px 0 whitesmoke ;
     padding: 2px;
+    height: 200px;
+    
 }
 
-header i
-{
-    color: yellow;
-}
 
 .pag
 {
@@ -32,8 +29,10 @@ header i
     font-family: cursive;
     text-align: center;
     font-size: 4rem;
+    margin-top: 10%;
     padding-top: 20px;
     padding-bottom: 5px;
+    color: whitesmoke;
 }
 
 .pag .bannier
@@ -43,7 +42,8 @@ header i
     border-radius: 3%;
     margin: auto;
     box-shadow: whitesmoke;
-    box-shadow: 7px 7px 8px 3px whitesmoke; 
+
+  
 }
 
 .pag .bannier img
@@ -53,28 +53,24 @@ header i
     border-radius: 2%;
 }
 
-.pag .hear2
-{
-    font-family: cursive;
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 10px;
-}
+
 
 .pag .bouttons
 {
     display: flex;
-    margin-left: 80%;
+    margin-left: 72%;
     margin-top: 3%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .pag .bouttons a
 {
-    color: yellow;
-    background-color:rgb(117, 162, 247); 
+    color: whitesmoke;
+    background-color:transparent; 
     text-transform: none;
     text-decoration: none;
+    font-size: 1rem;
+    font-family: monospace;
     border: solid 0.1px black;
 }
 
@@ -99,24 +95,16 @@ header i
 {
     display: flex; 
     justify-content: space-around;
+    margin-top: 5%;
+    
 }
 
 .pag .bloc .aside
 {
-    width: 20%;
+    width: 50%;
     background-color: rgb(69, 154, 183); 
 }
 
-.pag .bloc .aside .barriere
-{
-    margin-top: 10PX;
-    background-color:rgb(117, 162, 247); 
-    border-radius: 5%;
-    width: 94%;
-    margin: auto;
-    height: 15px;
-
-}
 
 .pag .bloc .aside form
 {
@@ -127,10 +115,7 @@ header i
     box-shadow:  7px 7px 13px 0px black
 }
 
-.pag .bloc .aside form input
-{
-    margin: 10%;
-}
+
 
 .pag .bloc .aside h2
 {
