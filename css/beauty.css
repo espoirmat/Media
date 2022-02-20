@@ -1,0 +1,351 @@
+*{
+    padding: 0%;
+    margin: 0% ;
+}
+body
+{
+    background-color:rgb(117, 162, 247);
+}
+
+header
+{
+    background-color:rgb(117, 162, 247);
+    width: 100%;
+    box-shadow: 0 0 17px 0 ;
+    text-align: center;
+    padding: 2px;
+}
+
+header i
+{
+    color: yellow;
+}
+
+.pag
+{
+    width: 90%;
+    margin: 5px auto;
+}
+
+.pag h1
+{
+    font-family: cursive;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.pag .bannier
+{
+    width: 94%;
+    height: 200px;
+    border-radius: 3%;
+    margin: auto;
+    box-shadow: whitesmoke;
+    box-shadow: 7px 7px 8px 3px whitesmoke; 
+}
+
+.pag .bannier img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.pag .hear2
+{
+    font-family: cursive;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.pag .bouttons
+{
+    display: flex;
+    margin-left: 80%;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+
+.pag .bouttons a
+{
+    color: yellow;
+    background-color:rgb(117, 162, 247); 
+    text-transform: none;
+    text-decoration: none;
+    border: solid 0.1px black;
+}
+
+.pag .bouttons a :hover
+{
+    color: darkblue;
+    background-color:rgb(117, 162, 247); ;
+}
+
+.pag .bouttons a :active
+{
+    color: darkblue;
+    background-color:rgb(117, 162, 247); 
+}
+.pag .bouttons a :focus
+{
+    color: darkblue;
+    background-color:rgb(163, 190, 241); 
+}
+
+.pag .bloc
+{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.pag .bloc .aside
+{
+    width: 20%;
+    background-color: rgb(69, 154, 183); 
+}
+
+.pag .bloc .aside .barriere
+{
+    margin-top: 10PX;
+    background-color:rgb(117, 162, 247); 
+    border-radius: 5%;
+    width: 94%;
+    margin: auto;
+    height: 15px;
+
+}
+
+.pag .bloc .aside form
+{
+    background-color:rgb(55, 244, 250); 
+    width: 94%;
+    margin: 4px;
+    height: 100px;
+    box-shadow:  7px 7px 13px 0px black
+}
+
+.pag .bloc .aside form input
+{
+    margin: 10%;
+}
+
+.pag .bloc .aside h2
+{
+    text-align: center;
+    color: whitesmoke;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.pag .bloc .aside nav
+{
+    width: 92%;
+    margin: auto;
+    padding: 6px;
+    background-color: rgb(100, 190, 224);
+    height: 300px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    box-shadow:  7px 7px 13px 0px black;
+}
+.pag .bloc .aside nav ul li p
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 9px;
+    padding: 6px;
+    text-align: center;
+    font-weight:bold;
+    background-color: rgb(137, 210, 255);
+    color: black;
+    text-decoration: none;
+    border-right: solid 0.1px black;
+    border-bottom: solid 0.1px black;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    list-style: square;
+}
+
+.pag .bloc .aside nav ul li {
+
+    padding-bottom: 10px;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    list-style: square;
+    
+}
+
+.pag .bloc .aside nav ul li p a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.pag .bloc .aside nav .para
+{
+
+
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.pag .bloc .aside nav .para li
+{
+    padding-bottom: 5px;
+    width: 50%;
+    background-color: rgb(6, 150, 161);
+    margin: auto;
+    text-align: center;
+    list-style: square ;
+    margin-bottom: 3px;
+    margin-top: 10%;
+}
+.pag .bloc .aside nav .para li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+.pag .bloc .aside .navi
+{
+    width: 92%;
+    margin: auto;
+    padding: 6px;
+    background-color: rgb(100, 190, 224);
+    height: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    box-shadow:  7px 7px 13px 0px black;
+}
+.pag .bloc .aside .navi li
+{
+    padding-bottom: 5px;
+    width: 50%;
+    background-color: rgb(6, 150, 161);
+    margin: auto;
+    text-align: center;
+    list-style: square ;
+    margin-bottom: 3px;
+    margin-top: 10%;
+}
+
+.pag .bloc .aside .navi li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.pag .bloc .corps
+{
+    width: 74%;
+    background-color:rgb(69, 154, 183); 
+
+}
+
+.pag .bloc .corps .barriere
+{
+    background-color:rgb(117, 162, 247); 
+    border-radius: 5%;
+    width: 98%;
+    margin: auto;
+    height: 20px;
+}
+
+.pag .bloc .corps .note
+{
+    width: 98%;
+    margin: 10px;
+    background-color:rgb(42, 137, 169); 
+    height: 12%;
+    border-radius: 5%;
+    box-shadow:  7px 7px 13px 0px black;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.pag .bloc .corps .note h2
+{
+    font-size: 2rem;
+    font-family: cursive;
+    color: whitesmoke;
+
+}
+
+
+.pag .bloc .corps .globe
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+.pag .bloc .corps .globe .gauche
+{
+    padding-top: 10%;
+    width: 40%;
+}
+.pag .bloc .corps .globe .gauche h2
+{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: normal;
+    text-align: center;
+}
+
+.pag .bloc .corps .globe .gauche p
+{
+    color: whitesmoke;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.pag .bloc .corps .globe .droite
+{
+    width: 70%;
+}
+
+.pag .bloc .corps .globe .droite img
+{
+    width: 90%;
+    margin: 20px;
+    box-shadow:  7px 7px 13px 0px black;
+
+}
+
+.pag .bloc .corps  h1
+{
+    font-family: cursive;
+    color: whitesmoke;
+}
+.pag .bloc .corps .pages
+{
+    width: 98%;
+    margin: auto;
+    height: 20px;
+    margin-top: 40px;
+    background-color:rgb(42, 137, 169); 
+    height: 12%;
+    box-shadow:  7px 7px 13px 0px black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+    font-family: cursive;
+    color: whitesmoke;
+}
