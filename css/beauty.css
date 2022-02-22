@@ -7,6 +7,9 @@ body
     background-color:rgb(3, 16, 35);
 }
 
+/*css pour index*/
+
+
 header
 {
     background-image:url("../img/musiquefond2.jpg");
@@ -189,8 +192,80 @@ header
 
 }
 
+/*css pour connection*/
+
+.page1
+{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin: 5% auto;
+    align-content: space-around;
+    background-image: url(../img/images4.jpg);
+}
+
+.page1 .logo
+{
+   width: 50%;
+   border: solid black;
+   
+}
+
+.page1 .logo img
+{
+    width: 100%;
+    box-shadow: rgba(3, 16, 35, 0.644);
+}
+
+
+.page1 .contenue
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page1 .contenue form
+{
+    width: 96%;
+    margin: 1.5% auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.page1 .contenue form input
+{
+    width: 70%;
+    margin: 2% auto;
+    height: 40px;
+    border-radius: 5%;
+}
+
+.page1 .contenue form button
+{
+    width: 70%;
+    margin: 2% auto;
+    height: 40px;
+    background-color: rgba(3, 16, 35, 0.377);
+     color: rgb(189, 33, 85);
+     font-family: monospace;
+     font-size: 1rem;
+     font-weight: bolder;
+}
+
+.page1 .contenue a
+{
+    text-decoration: none;
+    font-family: monospace;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 4%;
+}
 @media screen and (max-width: 900px)
 {
+
+    /*responsive pour index*/
     .pag .bouttons
     {
        flex-direction: column; 
@@ -204,6 +279,7 @@ header
     .pag .bannier h1 
     {
         font-size: 2rem;
+        text-align: center;
 
     }
     .pag .bloc .aside p {
