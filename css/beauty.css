@@ -151,7 +151,7 @@ header
     width: 90%;
    
 }
-.pag .bloc .corps .globe .droite img
+.pag .bloc .corps img
 {
     width: 100%;
     height: 100%;
@@ -187,4 +187,41 @@ header
     padding-bottom: 3%;
     background-color:rgba(3, 16, 35, 0.377) ;
 
+}
+
+@media screen and (max-width: 900px)
+{
+    .pag .bouttons
+    {
+       flex-direction: column; 
+    }
+
+    .pag .bouttons a
+    {
+        text-align: center;
+    }
+
+    .pag .bannier h1 
+    {
+        font-size: 2rem;
+
+    }
+    .pag .bloc .aside p {
+        text-align: left;
+        font-size: 0.7rem;
+
+    }
+
+    .pag .bloc .corps img {
+        width: 100%;
+        height: 100%;
+        margin-top: 7%;
+    }
+
+    .pages {
+        width: 100%;
+        height: 100px;
+        margin-top: 40px;
+        display: flex;
+    }
 }
