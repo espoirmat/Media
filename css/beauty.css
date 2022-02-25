@@ -277,6 +277,32 @@ header
     font-family: monospace;
     font-size: 1rem;
 }
+
+
+/*css pour inscription*/
+
+.sex
+{
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.sex label
+{
+    color: whitesmoke;
+    font-family: monospace;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.page1 .contenue label
+{
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 1rem;
+    margin-left: 5%;
+}
 @media screen and (max-width: 900px)
 {
 
