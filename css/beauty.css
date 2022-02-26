@@ -183,6 +183,8 @@ header
 .pieds
 {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     color: whitesmoke;
     font-family: monospace;
     text-align: center;
@@ -190,6 +192,18 @@ header
     padding-bottom: 3%;
     background-color:rgba(3, 16, 35, 0.377) ;
 
+}
+
+.pieds .contact
+{
+    display: flex;
+    align-content: space-around;
+    margin: auto;
+}
+
+.pieds .contact i
+{
+    margin: 1%;
 }
 
 /*css pour connection*/
