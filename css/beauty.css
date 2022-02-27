@@ -201,9 +201,10 @@ header
     margin: auto;
 }
 
-.pieds .contact i
+.pieds .contact a
 {
-    margin: 1%;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 /*css pour connection*/
