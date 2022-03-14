@@ -7,6 +7,7 @@ body
     background-color:rgb(3, 16, 35);
 }
 
+
 /*css pour index*/
 
 
@@ -207,117 +208,8 @@ header
     color: whitesmoke;
 }
 
-/*css pour connection*/
-
-.page1
-{
-    display: flex;
-    width: 90%;
-    height: 90%;
-    margin: 5% auto;
-    align-content: space-around;
-    
-}
-
-.page1 .logo
-{
-   width: 49%;
-   margin-right: 20px;
-  
-   
-}
-
-.page1 .logo img
-{
-    width: 100%;
-    box-shadow: rgba(3, 16, 35, 0.644);
-}
 
 
-.page1 .contenue
-{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    margin: 2% auto;
-    box-shadow: 0 0 17px 0 yellow;
-    background-image: url(../img/images4.jpg);
-
-}
-
-.page1 .contenue form
-{
-    width: 96%;
-    margin: 1.5% auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.page1 .contenue form input
-{
-    width: 70%;
-    margin: 2% auto;
-    height: 40px;
-    border-radius: 5%;
-}
-
-.page1 .contenue form button
-{
-    width: 70%;
-    margin: 2% auto;
-    height: 40px;
-    background-color: rgba(3, 16, 35, 0.377);
-     color: rgb(189, 33, 85);
-     font-family: monospace;
-     font-size: 1rem;
-     font-weight: bolder;
-}
-
-.page1 .contenue a
-{
-    text-decoration: none;
-    font-family: monospace;
-    text-align: center;
-    color: whitesmoke;
-    margin-bottom: 4%;
-}
-
-
-.page1 .contenue button 
-{
-    background-color:rgba(189, 33, 85, 0.377) ;
-    width: 60%;
-    margin: 5% auto;
-    color: black;
-    font-family: monospace;
-    font-size: 1rem;
-}
-
-
-/*css pour inscription*/
-
-.sex
-{
-    display: flex;
-    width: 40%;
-    margin: auto;
-}
-
-.sex label
-{
-    color: whitesmoke;
-    font-family: monospace;
-    margin-left: 5%;
-    width: 40%;
-}
-
-.page1 .contenue label
-{
-    color: whitesmoke;
-    font-family: monospace;
-    font-size: 1rem;
-    margin-left: 5%;
-}
 @media screen and (max-width: 900px)
 {
 
