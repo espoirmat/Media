@@ -4,7 +4,7 @@
 }
 body
 {
-    background-color:rgb(3, 16, 35);
+    background: linear-gradient(90deg,#2980B9,#8E44ad);
 }
 
 
@@ -65,6 +65,8 @@ header
     margin-left: 72%;
     margin-top: 3%;
     justify-content: space-between;
+    border: transparent;
+    outline: none;
 }
 
 .pag .bouttons a
