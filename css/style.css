@@ -4,7 +4,7 @@
 }
 body
 {
-    background: linear-gradient(90deg,#2980B9,#8E44ad);
+    background: linear-gradient(90deg,rgb(189, 33, 85),#8E44ad);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /*overflow: hidden;*/
 }
@@ -17,6 +17,7 @@ body
     margin-bottom: 5%;
     background: whitesmoke;
     border-radius: 10px;
+    box-shadow: 0 0 17px 0 yellow
 }
 
 .center h1
@@ -60,28 +61,49 @@ form .txt_field
     position: absolute;
     top: 50%;
     left: 5px;
-    color: #adadad;
+    color: #8E44ad;
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
     transition: .5s;
 }
+.clo
+{
+    display: flex;
+    
+}
 
 .sex
 {
     display: flex;
-    width: 40%;
-    margin: auto;
-    position: relative;
+    align-content: space-around;
+    width: 20%;
+    margin-left: 20%;
 }
 
 .sex label
 {
-    color: whitesmoke;
+    color: #8E44ad;
     font-family: monospace;
     position: absolute;
-    left: 3%;
-    top: 0%;
+    top: 50%;
+    left: 20%;
+
+}
+.p
+{
+    display: flex;
+    align-content: space-around;
+    width: 20%;
+    margin-left: 22%;
+}
+.p label
+{
+    color: #8E44ad;
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    left: 62%;
 
 }
 .txt_field span::before
@@ -92,7 +114,7 @@ form .txt_field
     left: 0;
     width: 0%;
     height: 2px;
-    background: #2691d9;
+    background: rgb(189, 33, 85);
     transition:.5s;
 
 }
@@ -101,7 +123,7 @@ form .txt_field
 .txt_field input:valid ~ label
 {
     top: -5px;
-    color: #2691d9;
+    color: rgb(189, 33, 85);
 }
 
 .txt_field input:focus ~ span::before,
@@ -114,7 +136,7 @@ form .txt_field
 .pass
 {
     margin: -5px 0 20px 5px;
-    color: #a6a6a6;
+    color: rgb(189, 33, 85);
     cursor: pointer;
 }
 
@@ -131,7 +153,7 @@ input[type="submit"]
     margin-top: 4%;
     margin-bottom: 4%;
     border: 1px solid;
-    background: #2691d9;
+    background: linear-gradient(90deg,rgb(189, 33, 85),#8E44ad);
     border-radius: 25px;
     font-size: 18px;
     color: #e9f4Fb;
@@ -167,3 +189,14 @@ input[type="submit"]:hover
 
 }
 
+@media screen and (max-width: 900px)
+{
+    .center
+{
+    width: 94%;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+}
